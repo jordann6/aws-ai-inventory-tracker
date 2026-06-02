@@ -4,6 +4,8 @@ Terraform-managed AWS infrastructure that provisions a serverless inventory mana
 
 ## Architecture
 
+![Architecture](docs/architecture.png)
+
 | Component | Resource | Purpose |
 |---|---|---|
 | API Gateway v2 | `api-inventory-{env}` | HTTP API with five routes |
