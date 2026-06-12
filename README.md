@@ -1,5 +1,7 @@
 # AWS AI Inventory Tracker
 
+[![Validate](https://github.com/jordann6/aws-ai-inventory-tracker/actions/workflows/validate.yml/badge.svg)](https://github.com/jordann6/aws-ai-inventory-tracker/actions/workflows/validate.yml)
+
 Terraform-managed AWS infrastructure that provisions a serverless inventory management API backed by DynamoDB, with on-demand AI analysis powered by Amazon Bedrock. Each inventory item can be analyzed in real time — the Lambda calls Claude via Bedrock, evaluates stock levels against the reorder threshold, and returns a structured recommendation with status and suggested reorder quantity.
 
 ## Architecture
